@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Ping-Pong</title>
+</head>
+<body onload="preparaJogo()">
+
+    <div class="comecarJogo">
+        <h3>KwendaGame</h3>
+       <div class="info-jogo">
+           <div class="tela-info">
+               <h1><strong>Kwenda-PingPong</strong></h1>
+           </div>
+           <div id="tempo-final"></div>
+           <div class="tela-info">
+            <input type="button" value="Iniciar" id="pnIniciar" onclick="iniciaJogo()">
+           </div>
+           <br><br>
+          <p class="texto-info">Presione a tecla de direição para cima e para baixo <br> <br>para evita que seu oponente marqui ponto.
+          </p>
+       </div>
+    
+           <h5>@Kwenda2024.Todos os Direitos Reservado</h5>
+     
+   </div>
+
+    <div id="painel">
+        <!-- <label>Dificuldade</label>
+        <input type="text" id="pnDif" value="1">
+        <label>Pontos</label>
+        <input type="text" id="pnPts" value="0"> -->
+        
+        </div>
+        <div id="campo">
+            <h3 style="float: right; padding-right: 30px;">KwendaGame</h3>
+        <div id="bola" style="position:absolute;top:240px;left:470px"></div>
+        <div id="jog1" style="position:absolute;top:180px;left:20px"></div>
+        <div id="jog2" style="position:absolute;top:180px;left:920px"></div>
+        </div>
+        
+
+    <script src="js/script.js"></script>
+</body>
+</html>
